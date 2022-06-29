@@ -9,5 +9,6 @@ public class BusinessLogicException extends RuntimeException {
     public BusinessLogicException(ExceptionCode exceptionCode) {
         super(exceptionCode.getMessage());
         this.exceptionCode = exceptionCode;
+        //에러 메세지 전송하는 부분
     }
 }
